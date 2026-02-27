@@ -55,3 +55,6 @@ Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.
 ###### create-better-t-stack
 https://github.com/AmanVarshney01/create-better-t-stack
 A modern CLI tool for scaffolding end-to-end type-safe TypeScript projects with best practices and customizable configurations
+
+###### simple_saas
+https://github.com/fishfl/simple_saas
