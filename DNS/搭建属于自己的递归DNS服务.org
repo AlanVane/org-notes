@@ -29,7 +29,7 @@ sliamb/paopaodns
 
 在容器内置执行 test.sh
 #+BEGIN_SRC
-docker exec paopaodns test.sh
+podman exec paopaodns test.sh
 #+END_SRC
 
 如果执行后输出 ALL TEST PASS，则所有组件都工作正常。
@@ -78,7 +78,7 @@ systemctl --user enable --now ~/.config/systemd/user/container-paopaodns.service
 
 测试启动容器
 #+BEGIN_SRC
-systemctl --user restart container-web.service
+systemctl --user restart container-paopaodns.service
 #+END_SRC
 
 最后，查看容器是否在运行，并查看是否开机自启和运行
