@@ -1,4 +1,4 @@
-# Plugin 需要分 Repo、Scope 使用
+Plugin 需要分 Repo、Scope 使用
 
 ## mrgoonie/claudekit-skills/
 
@@ -33,7 +33,7 @@
 > - DevOps & Infrastructure
 > /plugin install devops-tools@claudekit-skills
 
-## wshobson/agents/
+## wshobson/agents - Claude Code Plugins: Orchestration and Automation
 
 [https://github.com/wshobson/agents/]
 
@@ -97,3 +97,47 @@ useage：
 > /plugin install blockchain-web3
 > - Payments
 > /plugin install payment-processing
+
+## wshobson/commands - Claude Code Slash Commands
+
+[https://github.com/wshobson/commands]
+
+1. Add Marketplace
+
+> /plugin marketplace add https://github.com/wshobson/agents
+
+2. Install Plugins
+
+> /plugin install claude-code-essentials
+
+
+## xiaolai/tdd-guardian-for-claude
+
+[https://github.com/xiaolai/tdd-guardian-for-claude]
+
+1. Add Marketplace
+
+> /plugin marketplace add xiaolai/claude-plugin-marketplace
+
+2. Install Plugins
+
+> /plugin install tdd-guardian@xiaolai
+
+## boostvolt/claude-code-lsps
+
+[https://github.com/boostvolt/claude-code-lsps]
+
+1. Add Marketplace
+
+> /plugin marketplace add boostvolt/claude-code-lsps
+
+2. Install Plugins
+
+> /plugin install bash-language-server@claude-code-lsps
+> /plugin install gopls@claude-code-lsps
+> /plugin install jdtls@claude-code-lsps
+> /plugin install kotlin-lsp@claude-code-lsps
+> /plugin install pyright@claude-code-lsps
+> /plugin install vtsls@claude-code-lsps
+> /plugin install yaml-language-server@claude-code-lsps
+
