@@ -1,0 +1,3 @@
+- 一键换源脚本 [https://linuxmirrors.cn/](https://linuxmirrors.cn/)
+- 校园网联合镜像站 [mirrors.cernet.edu.cn](http://mirrors.cernet.edu.cn/)
+- 高校镜像联盟 [https://mirrorz.org/](https://mirrorz.org/)

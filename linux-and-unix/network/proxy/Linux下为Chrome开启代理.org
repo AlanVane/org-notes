@@ -1,0 +1,16 @@
+#+title: Linux下为Chrome开启代理
+
+#+begin_src desktop
+[Desktop Entry]
+...
+Exec=/usr/bin/google-chrome-stable --proxy-server="127.0.0.1:7890" %U
+...
+
+[Desktop Action new-window]
+...
+Exec=/usr/bin/google-chrome-stable --proxy-server="127.0.0.1:7890"
+
+[Desktop Action new-private-window]
+...
+Exec=/usr/bin/google-chrome-stable --incognito --proxy-server="127.0.0.1:7890"
+#+end_src
