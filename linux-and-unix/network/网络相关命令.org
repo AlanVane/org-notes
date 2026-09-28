@@ -43,7 +43,7 @@ wget -r -p -np -k http://www.21cn.com
 · -k: 转换非相对链接为相对链接。
 
 查询网卡信息
-sudo nmcli dev list
+sudo nmcli dev status
 查询网关信息
-sudo nmcli dev list | grep gw
+sudo nmcli dev status | grep gw
 

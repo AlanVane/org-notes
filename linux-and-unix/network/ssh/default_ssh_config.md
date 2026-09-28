@@ -3,7 +3,7 @@
 ## First: Stop ssh server
 
 ```bash
-systemctl stop ssh
+systemctl stop sshd
 ```
 
 OpenSSH supports 11 key exchange protocols:
@@ -98,7 +98,7 @@ Host *
 Reload the ssh server:
 
 ```bash
-sudo systemctl reload ssh
+sudo systemctl reload sshd
 ```
 
 ## References
