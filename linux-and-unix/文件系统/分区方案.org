@@ -1,9 +1,14 @@
 #+TITLE: 分区方案
 
-/boot 512MB
-/ 50GB
-/swap 6GB
-/tmp 1GB
-/home ~GB
+* 分区方案
+/boot - 512MB
+/ - 50~100GB
+/swap - 6GB
+/home - ~GB
 
 加密了 swap tmp home
+
+* 建议与说明
+- tmp - 默认情况下这个目录已经是一个独立分区，systemd 将其挂载问tmpfs。
+- swap - swap 分区提供能够被作为虚拟内存的内存空间。swap file 也可以实现同样的功能，并且它们之间没有明显的性能区别，但是后者更易于根据需要调整大小。
+- home - 分离 /home。保持挂载在 /home 的内容允许管理员在保留用户配置和文件的同时替换系统的其余部分，也允许单独备份。
