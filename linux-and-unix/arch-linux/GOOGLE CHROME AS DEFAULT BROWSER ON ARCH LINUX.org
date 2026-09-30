@@ -4,8 +4,8 @@
 
 Then I stumbled upon this solution:
 #+BEGIN_SRC sh
-/opt/google/chrome/xdg-settings get default-web-browser
-/opt/google/chrome/xdg-settings check default-web-browser google-chrome.desktop
+xdg-settings get default-web-browser
+xdg-settings check default-web-browser google-chrome.desktop
 #+END_SRC
 Here you can check which is your default browser and change it.
 
