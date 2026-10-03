@@ -6,5 +6,5 @@
 删除单个字/词 forward == D, backward == W
 删除整行 forward == K, backward == U
 这谁想出来的反人类设计
-[[file:../../images/moving_cli.png]]
+[[file:./images/moving_cli.png]]
 
