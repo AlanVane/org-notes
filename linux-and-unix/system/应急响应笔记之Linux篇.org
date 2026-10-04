@@ -142,7 +142,7 @@ grep "Failed password" /var/log/secure | awk {'print $9'} | sort | uniq -c | sor
 
 ** 10.5 查看恶意文件里面的 IP
 #+BEGIN_SRC bash
-strings //usr/bin/.sshd | egrep '[1-9]{1,3}\.[1-9]{1,3}\.'
+strings /usr/bin/sshd | egrep '[1-9]{1,3}\.[1-9]{1,3}\.'
 #+END_SRC
 
 ** 10.6 根据特征删除指定进程
@@ -219,7 +219,7 @@ tail -f /var/log/audit/audit.log|grep password_monitor
 
 - 对比 ssh 版本： =ssh -V=
 - 查看 ssh 配置文件和 =/usr/sbin/sshd= 的时间: =stat /usr/sbin/sshd=
-- strings 检查 /=/usr/sbin/sshd= ，看是否有邮箱、IP 等信息: =strings /usr/bin/.sshd | egrep '[1-9]{1,3}\.[1-9]{1,3}\.'=
+- strings 检查 /=/usr/sbin/sshd= ，看是否有邮箱、IP 等信息: =strings /usr/bin/sshd | egrep '[1-9]{1,3}\.[1-9]{1,3}\.'=
 - 通过 strace 监控 sshd 进程读写文件的操作，一般的 sshd 后门都会将账户密码记录到文件，可以通过 strace 进程跟踪到 ssh 登录密码文件。
 
 ** 10.18 清除僵尸进程
