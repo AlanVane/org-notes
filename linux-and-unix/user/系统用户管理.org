@@ -1,6 +1,6 @@
 客人会话禁用
 
-只要在shell下运行这​​个（一次）：
+只要在shell下运行这个（一次）：
 
 sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" >/usr/share/lightdm/lightdm.conf.d/50-no-guest.conf'
 
