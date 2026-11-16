@@ -1,3 +1,4 @@
 {
-  "ignoredFiles": ["e2e/**"]
+  "ignoredFiles": ["e2e/**"],
+  "minKBReduced": 10
 }
