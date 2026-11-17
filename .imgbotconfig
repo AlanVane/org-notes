@@ -1,4 +1,5 @@
 {
   "compressWiki": true,
-  "minKBReduced": 10
+  "minKBReduced": 10,
+  "aggressiveCompression": false
 }
