@@ -1,5 +1,6 @@
 {
-  "compressWiki": true,
   "minKBReduced": 10,
-  "aggressiveCompression": false
+  "compressWiki": true,
+  "aggressiveCompression": false,
+  "x-trigger": 1794892845743
 }
